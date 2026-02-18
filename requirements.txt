@@ -6,3 +6,4 @@ langchain-google-genai
 faiss-cpu
 pymupdf
 python-dotenv
+google-api-core
