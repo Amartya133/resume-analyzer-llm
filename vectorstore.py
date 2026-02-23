@@ -22,10 +22,6 @@ def create_vectorstore(file_path: str):
 
     texts = text_splitter.split_documents(documents)
 
-    options = client_options_lib.ClientOptions(
-        api_endpoint="generativelanguage.googleapis.com"
-    )
-
     embeddings = GoogleGenerativeAIEmbeddings(
         model="gemini-embedding-001", 
         client_options=options 
