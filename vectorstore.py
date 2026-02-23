@@ -24,7 +24,6 @@ def create_vectorstore(file_path: str):
 
     embeddings = GoogleGenerativeAIEmbeddings(
         model="gemini-embedding-001", 
-        client_options=options 
     )
     vectorstore = FAISS.from_documents(texts, embeddings)
 
