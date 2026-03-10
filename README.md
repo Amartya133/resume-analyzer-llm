@@ -2,6 +2,18 @@
 
 An LLM-powered app that analyzes resumes against job descriptions and provides insights with an interactive chatbot.
 
+---
+
+## Live Application
+
+You can access the deployed application here: 
+
+### Streamlit App: 
+
+https://resume-analyzer-llm-isxtybr8mrxzncsm3tdqfo.streamlit.app/
+
+---
+
 ## Features
 
 - Resume semantic analysis
